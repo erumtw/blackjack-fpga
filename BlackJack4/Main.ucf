@@ -1,0 +1,60 @@
+
+
+NET "OUTP[0]" LOC = P41;
+NET "OUTP[1]" LOC = P40;
+NET "OUTP[2]" LOC = P35;
+NET "OUTP[3]" LOC = P34;
+NET "OUTP[4]" LOC = P32;
+NET "OUTP[5]" LOC = P29;
+NET "OUTP[6]" LOC = P27;
+NET "COM0" LOC = P44;
+NET "P123" LOC = P123;
+
+
+NET "PB0" LOC = P45;
+
+NET "K10" LOC = P15;
+NET "K11" LOC = P17;
+NET "K12" LOC = P22;
+NET "K13" LOC = P24;
+
+
+NET "PB5" LOC = P120;
+
+
+NET "PB25" LOC = P119;
+
+
+NET "K14" LOC = P2;
+NET "K15" LOC = P143;
+NET "K16" LOC = P141;
+NET "K17" LOC = P139;
+
+
+NET "PB13" LOC = P12;
+NET "PB23" LOC = P137;
+
+# PlanAhead Generated physical constraints 
+
+NET "a[0]" LOC = P23;
+NET "a[1]" LOC = P21;
+NET "a[2]" LOC = P16;
+NET "a[3]" LOC = P14;
+NET "a[4]" LOC = P11;
+NET "a[5]" LOC = P9;
+NET "a[6]" LOC = P7;
+NET "a[7]" LOC = P5;
+NET "b[0]" LOC = P1;
+NET "b[1]" LOC = P142;
+NET "b[2]" LOC = P140;
+NET "b[3]" LOC = P138;
+NET "b[4]" LOC = P134;
+NET "b[5]" LOC = P132;
+NET "b[6]" LOC = P127;
+NET "b[7]" LOC = P124;
+NET "CP5" LOC = P112;
+NET "CP4" LOC = P111;
+NET "CP3" LOC = P105;
+NET "CP2" LOC = P104;
+NET "CP1" LOC = P102;
+NET "CP0" LOC = P101;

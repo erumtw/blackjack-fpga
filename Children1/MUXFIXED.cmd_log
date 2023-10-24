@@ -1,0 +1,8 @@
+sch2hdl -intstyle ise -family spartan6 -verilog MUXFIXED_drc.vf -w C:/KMITL/2D_1/DSF/Project1/Children1/MUXFIXED.sch 
+sch2sym -intstyle ise -family spartan6 -refsym MUXFIXED C:/KMITL/2D_1/DSF/Project1/Children1/MUXFIXED.sch C:/KMITL/2D_1/DSF/Project1/Children1/MUXFIXED.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog MUXFIXED_drc.vf -w C:/KMITL/2D_1/DSF/Project1/Children1/MUXFIXED.sch 
+sch2sym -intstyle ise -family spartan6 -refsym MUXFIXED C:/KMITL/2D_1/DSF/Project1/Children1/MUXFIXED.sch C:/KMITL/2D_1/DSF/Project1/Children1/MUXFIXED.sym 
+sch2sym -intstyle ise -family spartan6 -refsym MUXFIXED C:/KMITL/2D_1/DSF/Project1/Children1/MUXFIXED.sch C:/KMITL/2D_1/DSF/Project1/Children1/MUXFIXED.sym 
+sch2hdl -intstyle ise -family spartan6 -verilog MUXFIXED_drc.vf -w C:/KMITL/2D_1/DSF/Project1/Children1/MUXFIXED.sch 
+sch2hdl -intstyle ise -family spartan6 -verilog MUXFIXED_drc.vf -w C:/KMITL/2D_1/DSF/Project1/Children1/MUXFIXED.sch 
+sch2sym -intstyle ise -family spartan6 -refsym MUXFIXED C:/KMITL/2D_1/DSF/Project1/Children1/MUXFIXED.sch C:/KMITL/2D_1/DSF/Project1/Children1/MUXFIXED.sym 

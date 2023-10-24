@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan6 -verilog Egde_detector_drc.vf -w C:/KMITL/2D_1/DSF/Project1/Children1/Egde_detector.sch 
+sch2sym -intstyle ise -family spartan6 -refsym Egde_detector C:/KMITL/2D_1/DSF/Project1/Children1/Egde_detector.sch C:/KMITL/2D_1/DSF/Project1/Children1/Egde_detector.sym 

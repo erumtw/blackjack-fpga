@@ -1,0 +1,14 @@
+vhdtdtfi -lib work COM21.vhd -prj BlackJack4 -o COM21.spl -module COM21 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 COM21.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/COM21.sym 
+vhdtdtfi -lib work COM21.vhd -prj BlackJack4 -o COM21.spl -module COM21 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 COM21.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/COM21.sym 
+vhdtdtfi -lib work COM21.vhd -prj BlackJack4 -o COM21.spl -module COM21 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 COM21.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/COM21.sym 
+vhdtdtfi -lib work COM21.vhd -prj BlackJack4 -o COM21.spl -module COM21 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 COM21.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/COM21.sym 
+vhdtdtfi -lib work COM21.vhd -prj BlackJack4 -o COM21.spl -module COM21 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 COM21.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/COM21.sym 
+vhdtdtfi -lib work COM21.vhd -prj BlackJack4 -o COM21.spl -module COM21 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 COM21.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/COM21.sym 
+vhdtdtfi -lib work COM21.vhd -prj BlackJack4 -o COM21.spl -module COM21 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 COM21.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/COM21.sym 

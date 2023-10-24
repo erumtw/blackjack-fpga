@@ -1,0 +1,2 @@
+vhdtdtfi -lib work BCDconvertor.vhd -prj Children1 -o BCDconvertor.spl -module BCDconvertor -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 BCDconvertor.spl C:/KMITL/2D_1/DSF/Project1/Children1/BCDconvertor.sym 

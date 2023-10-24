@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan6 -verilog nCounter0_9_drc.vf -w C:/KMITL/2D_1/DSF/Project1/Children1/nCounter0_9.sch 
+sch2sym -intstyle ise -family spartan6 -refsym nCounter0_9 C:/KMITL/2D_1/DSF/Project1/Children1/nCounter0_9.sch C:/KMITL/2D_1/DSF/Project1/Children1/nCounter0_9.sym 

@@ -1,0 +1,4 @@
+vhdtdtfi -lib work MORETHEN21.vhd -prj Children1 -o MORETHEN21.spl -module MORETHEN21 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 MORETHEN21.spl C:/KMITL/2D_1/DSF/Project1/Children1/MORETHEN21.sym 
+vhdtdtfi -lib work MORETHEN21.vhd -prj Children1 -o MORETHEN21.spl -module MORETHEN21 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 MORETHEN21.spl C:/KMITL/2D_1/DSF/Project1/Children1/MORETHEN21.sym 

@@ -1,0 +1,7 @@
+verilog work "MUXFIXED2.vf"
+vhdl work "MORETHEN21.vhd"
+verilog work "Egde_detector.vf"
+verilog work "div_10.vf"
+vhdl work "Conv_7seg.vhd"
+vhdl work "BCDconvertor.vhd"
+verilog work "Main.vf"

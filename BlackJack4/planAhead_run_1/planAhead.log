@@ -1,0 +1,161 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Dec 15 00:48:35 2022
+# Process ID: 4300
+# Log file: C:/KMITL/2D_1/DSF/Project1/BlackJack4/planAhead_run_1/planAhead.log
+# Journal file: C:/KMITL/2D_1/DSF/Project1/BlackJack4/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/KMITL/2D_1/DSF/Project1/BlackJack4/pa.fromHdl.tcl
+# create_project -name BlackJack4 -dir "C:/KMITL/2D_1/DSF/Project1/BlackJack4/planAhead_run_1" -part xc6slx9tqg144-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "Main.ucf" [current_fileset -constrset]
+Adding file 'C:/KMITL/2D_1/DSF/Project1/BlackJack4/Main.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {RAM64.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Conv_7seg.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ContMODn.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {COM21.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {div_10.vf}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Main.vf}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top Main $srcset
+# add_files [list {Main.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx9tqg144-3
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/KMITL/2D_1/DSF/Project1/BlackJack4/RAM64.vhd" into library work
+Parsing VHDL file "C:/KMITL/2D_1/DSF/Project1/BlackJack4/Conv_7seg.vhd" into library work
+Parsing VHDL file "C:/KMITL/2D_1/DSF/Project1/BlackJack4/ContMODn.vhd" into library work
+Parsing VHDL file "C:/KMITL/2D_1/DSF/Project1/BlackJack4/COM21.vhd" into library work
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/tqg144/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/KMITL/2D_1/DSF/Project1/BlackJack4/Main.ucf]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'A0' [C:/KMITL/2D_1/DSF/Project1/BlackJack4/Main.ucf:17]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'A1' [C:/KMITL/2D_1/DSF/Project1/BlackJack4/Main.ucf:18]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'A2' [C:/KMITL/2D_1/DSF/Project1/BlackJack4/Main.ucf:19]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'A3' [C:/KMITL/2D_1/DSF/Project1/BlackJack4/Main.ucf:20]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'A4' [C:/KMITL/2D_1/DSF/Project1/BlackJack4/Main.ucf:21]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'A5' [C:/KMITL/2D_1/DSF/Project1/BlackJack4/Main.ucf:22]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'A6' [C:/KMITL/2D_1/DSF/Project1/BlackJack4/Main.ucf:23]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'A7' [C:/KMITL/2D_1/DSF/Project1/BlackJack4/Main.ucf:24]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B0' [C:/KMITL/2D_1/DSF/Project1/BlackJack4/Main.ucf:33]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B1' [C:/KMITL/2D_1/DSF/Project1/BlackJack4/Main.ucf:34]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B2' [C:/KMITL/2D_1/DSF/Project1/BlackJack4/Main.ucf:35]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B3' [C:/KMITL/2D_1/DSF/Project1/BlackJack4/Main.ucf:36]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B4' [C:/KMITL/2D_1/DSF/Project1/BlackJack4/Main.ucf:37]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B5' [C:/KMITL/2D_1/DSF/Project1/BlackJack4/Main.ucf:38]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B6' [C:/KMITL/2D_1/DSF/Project1/BlackJack4/Main.ucf:39]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'B7' [C:/KMITL/2D_1/DSF/Project1/BlackJack4/Main.ucf:40]
+Finished Parsing UCF File [C:/KMITL/2D_1/DSF/Project1/BlackJack4/Main.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 3b5ffafe
+open_rtl_design: Time (s): elapsed = 00:00:07 . Memory (MB): peak = 715.395 ; gain = 215.891
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P23 [get_ports {a[0]}]
+endgroup
+startgroup
+set_property package_pin P21 [get_ports {a[1]}]
+endgroup
+set_property package_pin "" [get_ports [list  {a[3]}]]
+startgroup
+set_property package_pin P16 [get_ports {a[2]}]
+endgroup
+startgroup
+set_property package_pin P14 [get_ports {a[3]}]
+endgroup
+set_property package_pin "" [get_ports [list  {a[5]}]]
+startgroup
+set_property package_pin P11 [get_ports {a[4]}]
+endgroup
+startgroup
+set_property package_pin P9 [get_ports {a[5]}]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports {a[6]}]
+endgroup
+startgroup
+set_property package_pin P5 [get_ports {a[7]}]
+endgroup
+startgroup
+set_property package_pin P1 [get_ports {b[0]}]
+endgroup
+startgroup
+set_property package_pin P142 [get_ports {b[1]}]
+endgroup
+startgroup
+set_property package_pin P140 [get_ports {b[2]}]
+endgroup
+startgroup
+set_property package_pin P138 [get_ports {b[3]}]
+endgroup
+startgroup
+set_property package_pin P134 [get_ports {b[4]}]
+endgroup
+startgroup
+set_property package_pin P132 [get_ports {b[5]}]
+endgroup
+startgroup
+set_property package_pin P127 [get_ports {b[6]}]
+endgroup
+startgroup
+set_property package_pin P124 [get_ports {b[7]}]
+endgroup
+save_constraints
+set_property package_pin "" [get_ports [list  CP2]]
+startgroup
+set_property package_pin P112 [get_ports CP5]
+endgroup
+startgroup
+set_property package_pin P111 [get_ports CP4]
+endgroup
+startgroup
+set_property package_pin P105 [get_ports CP3]
+endgroup
+startgroup
+set_property package_pin P104 [get_ports CP2]
+endgroup
+startgroup
+set_property package_pin P102 [get_ports CP1]
+endgroup
+startgroup
+set_property package_pin P101 [get_ports CP0]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+ (See C:/KMITL/2D_1/DSF/Project1/BlackJack4\planAhead_pid4300.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Dec 15 00:58:59 2022...
+INFO: [Common 17-83] Releasing license: PlanAhead

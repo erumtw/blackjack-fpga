@@ -1,0 +1,30 @@
+vhdtdtfi -lib work RAM64.vhd -prj BlackJack4 -o ram_memory.spl -module ram_memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ram_memory.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/ram_memory.sym 
+vhdtdtfi -lib work RAM64.vhd -prj BlackJack4 -o ram_memory.spl -module ram_memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ram_memory.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/ram_memory.sym 
+vhdtdtfi -lib work RAM64.vhd -prj BlackJack4 -o ram_memory.spl -module ram_memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ram_memory.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/ram_memory.sym 
+vhdtdtfi -lib work RAM64.vhd -prj BlackJack4 -o ram_memory.spl -module ram_memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ram_memory.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/ram_memory.sym 
+vhdtdtfi -lib work RAM64.vhd -prj BlackJack4 -o ram_memory.spl -module ram_memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ram_memory.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/ram_memory.sym 
+vhdtdtfi -lib work RAM64.vhd -prj BlackJack4 -o ram_memory.spl -module ram_memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ram_memory.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/ram_memory.sym 
+vhdtdtfi -lib work RAM64.vhd -prj BlackJack4 -o ram_memory.spl -module ram_memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ram_memory.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/ram_memory.sym 
+vhdtdtfi -lib work RAM64.vhd -prj BlackJack4 -o ram_memory.spl -module ram_memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ram_memory.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/ram_memory.sym 
+vhdtdtfi -lib work RAM64.vhd -prj BlackJack4 -o ram_memory.spl -module ram_memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ram_memory.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/ram_memory.sym 
+vhdtdtfi -lib work RAM64.vhd -prj BlackJack4 -o ram_memory.spl -module ram_memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ram_memory.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/ram_memory.sym 
+vhdtdtfi -lib work RAM64.vhd -prj BlackJack4 -o ram_memory.spl -module ram_memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ram_memory.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/ram_memory.sym 
+vhdtdtfi -lib work RAM64.vhd -prj BlackJack4 -o ram_memory.spl -module ram_memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ram_memory.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/ram_memory.sym 
+vhdtdtfi -lib work RAM64.vhd -prj BlackJack4 -o ram_memory.spl -module ram_memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ram_memory.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/ram_memory.sym 
+vhdtdtfi -lib work RAM64.vhd -prj BlackJack4 -o ram_memory.spl -module ram_memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ram_memory.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/ram_memory.sym 
+vhdtdtfi -lib work RAM64.vhd -prj BlackJack4 -o ram_memory.spl -module ram_memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 ram_memory.spl C:/KMITL/2D_1/DSF/Project1/BlackJack4/ram_memory.sym 

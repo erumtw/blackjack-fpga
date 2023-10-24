@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Dec 15 16:02:12 2022
+# Process ID: 22584
+# Log file: C:/KMITL/2D_1/DSF/Project1/Children1/planAhead_run_1/planAhead.log
+# Journal file: C:/KMITL/2D_1/DSF/Project1/Children1/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/KMITL/2D_1/DSF/Project1/Children1/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P83 [get_ports Buzzer]
+endgroup
+save_constraints

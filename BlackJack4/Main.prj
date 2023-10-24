@@ -1,0 +1,6 @@
+vhdl work "RAM64.vhd"
+vhdl work "Conv_7seg.vhd"
+vhdl work "ContMODn.vhd"
+vhdl work "COM21.vhd"
+verilog work "div_10.vf"
+verilog work "Main.vf"

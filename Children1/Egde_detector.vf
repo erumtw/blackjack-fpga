@@ -1,0 +1,46 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Egde_detector.vf
+// /___/   /\     Timestamp : 12/15/2022 16:02:10
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/KMITL/2D_1/DSF/Project1/Children1/Egde_detector.vf -w C:/KMITL/2D_1/DSF/Project1/Children1/Egde_detector.sch
+//Design Name: Egde_detector
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Egde_detector(CLK, 
+                     INPUT, 
+                     OEdge);
+
+    input CLK;
+    input INPUT;
+   output OEdge;
+   
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   
+   FD #( .INIT(1'b0) ) XLXI_1 (.C(CLK), 
+              .D(INPUT), 
+              .Q(XLXN_4));
+   FD #( .INIT(1'b0) ) XLXI_2 (.C(CLK), 
+              .D(XLXN_4), 
+              .Q(XLXN_2));
+   INV  XLXI_3 (.I(XLXN_2), 
+               .O(XLXN_3));
+   AND2  XLXI_4 (.I0(XLXN_3), 
+                .I1(XLXN_4), 
+                .O(OEdge));
+endmodule

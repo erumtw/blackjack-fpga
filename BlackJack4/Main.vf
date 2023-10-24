@@ -1,0 +1,171 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Main.vf
+// /___/   /\     Timestamp : 12/15/2022 00:48:33
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/KMITL/2D_1/DSF/Project1/BlackJack4/Main.vf -w C:/KMITL/2D_1/DSF/Project1/BlackJack4/Main.sch
+//Design Name: Main
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Main(a, 
+            b, 
+            PB0, 
+            PB5, 
+            PB13, 
+            PB23, 
+            PB25, 
+            P123, 
+            COM0, 
+            CP0, 
+            CP1, 
+            CP2, 
+            CP3, 
+            CP4, 
+            CP5, 
+            K10, 
+            K11, 
+            K12, 
+            K13, 
+            K14, 
+            K15, 
+            K16, 
+            K17, 
+            OUTP);
+
+    input [7:0] a;
+    input [7:0] b;
+    input PB0;
+    input PB5;
+    input PB13;
+    input PB23;
+    input PB25;
+    input P123;
+   output COM0;
+   output CP0;
+   output CP1;
+   output CP2;
+   output CP3;
+   output CP4;
+   output CP5;
+   output K10;
+   output K11;
+   output K12;
+   output K13;
+   output K14;
+   output K15;
+   output K16;
+   output K17;
+   output [6:0] OUTP;
+   
+   wire [3:0] dout;
+   wire SW0;
+   wire [5:0] XLXN_1;
+   wire XLXN_17;
+   wire XLXN_301;
+   wire XLXN_303;
+   wire XLXN_307;
+   wire XLXN_389;
+   wire XLXN_409;
+   wire XLXN_412;
+   wire XLXN_417;
+   wire CP3_DUMMY;
+   wire CP4_DUMMY;
+   wire CP5_DUMMY;
+   
+   assign CP3 = CP3_DUMMY;
+   assign CP4 = CP4_DUMMY;
+   assign CP5 = CP5_DUMMY;
+   Conv_7seg  XLXI_1 (.x(dout[3:0]), 
+                     .display(OUTP[6:0]));
+   ContMODn  XLXI_2 (.clk(XLXN_389), 
+                    .c_enable(XLXN_303), 
+                    .rst(PB0), 
+                    .Y(XLXN_1[5:0]));
+   div_10  XLXI_4 (.Clk(P123), 
+                  .Clk_dived(XLXN_17));
+   div_10  XLXI_5 (.Clk(XLXN_17), 
+                  .Clk_dived(XLXN_389));
+   GND  XLXI_6 (.G(COM0));
+   OR4  XLXI_77 (.I0(dout[0]), 
+                .I1(dout[1]), 
+                .I2(dout[2]), 
+                .I3(dout[3]), 
+                .O(XLXN_301));
+   AND3  XLXI_91 (.I0(dout[3]), 
+                 .I1(PB5), 
+                 .I2(SW0), 
+                 .O(K10));
+   AND3  XLXI_92 (.I0(dout[2]), 
+                 .I1(PB5), 
+                 .I2(SW0), 
+                 .O(K11));
+   AND3  XLXI_93 (.I0(dout[1]), 
+                 .I1(PB5), 
+                 .I2(SW0), 
+                 .O(K12));
+   AND3  XLXI_94 (.I0(dout[0]), 
+                 .I1(PB5), 
+                 .I2(SW0), 
+                 .O(K13));
+   AND3  XLXI_95 (.I0(dout[3]), 
+                 .I1(PB25), 
+                 .I2(SW0), 
+                 .O(K14));
+   AND3  XLXI_96 (.I0(dout[2]), 
+                 .I1(PB25), 
+                 .I2(SW0), 
+                 .O(K15));
+   AND3  XLXI_97 (.I0(dout[1]), 
+                 .I1(PB25), 
+                 .I2(SW0), 
+                 .O(K16));
+   AND3  XLXI_98 (.I0(dout[0]), 
+                 .I1(PB25), 
+                 .I2(SW0), 
+                 .O(K17));
+   ram_memory  XLXI_112 (.addr(XLXN_1[5:0]), 
+                        .clk(XLXN_17), 
+                        .din(), 
+                        .we(SW0), 
+                        .dout(dout[3:0]));
+   OR2  XLXI_129 (.I0(XLXN_417), 
+                 .I1(XLXN_307), 
+                 .O(XLXN_303));
+   INV  XLXI_130 (.I(XLXN_301), 
+                 .O(XLXN_307));
+   AND2  XLXI_158 (.I0(XLXN_409), 
+                  .I1(XLXN_412), 
+                  .O(SW0));
+   INV  XLXI_159 (.I(XLXN_417), 
+                 .O(XLXN_409));
+   OR2  XLXI_160 (.I0(PB5), 
+                 .I1(PB25), 
+                 .O(XLXN_412));
+   OR2  XLXI_161 (.I0(PB13), 
+                 .I1(PB23), 
+                 .O(XLXN_417));
+   COM21  XLXI_162 (.a(a[7:0]), 
+                   .b(b[7:0]), 
+                   .ABIT(CP5_DUMMY), 
+                   .BBIT(CP3_DUMMY), 
+                   .EQ(CP4_DUMMY));
+   BUF  XLXI_163 (.I(CP3_DUMMY), 
+                 .O(CP0));
+   BUF  XLXI_164 (.I(CP4_DUMMY), 
+                 .O(CP1));
+   BUF  XLXI_165 (.I(CP5_DUMMY), 
+                 .O(CP2));
+endmodule

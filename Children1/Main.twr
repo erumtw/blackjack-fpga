@@ -1,0 +1,201 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf Main.ucf
+
+Design file:              Main.ncd
+Physical constraint file: Main.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock ABIT
+------------+------------+------------+------------+------------+----------------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)                 | Phase  |
+------------+------------+------------+------------+------------+----------------------------------+--------+
+SW0         |    0.439(F)|      FAST  |    3.876(F)|      SLOW  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+------------+------------+------------+------------+------------+----------------------------------+--------+
+
+Setup/Hold to clock BBIT
+------------+------------+------------+------------+------------+----------------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)                 | Phase  |
+------------+------------+------------+------------+------------+----------------------------------+--------+
+SW0         |    0.174(F)|      FAST  |    4.374(F)|      SLOW  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+------------+------------+------------+------------+------------+----------------------------------+--------+
+
+Setup/Hold to clock EQ
+------------+------------+------------+------------+------------+----------------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)                 | Phase  |
+------------+------------+------------+------------+------------+----------------------------------+--------+
+SW0         |    0.169(F)|      FAST  |    4.373(F)|      SLOW  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+------------+------------+------------+------------+------------+----------------------------------+--------+
+
+Setup/Hold to clock SW7
+------------+------------+------------+------------+------------+----------------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)                 | Phase  |
+------------+------------+------------+------------+------------+----------------------------------+--------+
+SW0         |    0.868(F)|      FAST  |    6.372(F)|      SLOW  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+------------+------------+------------+------------+------------+----------------------------------+--------+
+
+Clock ABIT to Pad
+------------+-----------------+------------+-----------------+------------+----------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                 | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------------------+--------+
+DP<0>       |        10.175(F)|      SLOW  |         5.714(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<1>       |        10.175(F)|      SLOW  |         5.714(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<2>       |        10.381(F)|      SLOW  |         5.846(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<3>       |        10.381(F)|      SLOW  |         5.846(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<4>       |        10.057(F)|      SLOW  |         5.691(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<5>       |         9.350(F)|      SLOW  |         5.259(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<6>       |         8.998(F)|      SLOW  |         4.980(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------------------+--------+
+
+Clock BBIT to Pad
+------------+-----------------+------------+-----------------+------------+----------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                 | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------------------+--------+
+DP<0>       |        10.673(F)|      SLOW  |         5.979(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<1>       |        10.673(F)|      SLOW  |         5.979(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<2>       |        10.879(F)|      SLOW  |         6.111(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<3>       |        10.879(F)|      SLOW  |         6.111(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<4>       |        10.555(F)|      SLOW  |         5.956(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<5>       |         9.848(F)|      SLOW  |         5.524(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<6>       |         9.496(F)|      SLOW  |         5.245(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------------------+--------+
+
+Clock EQ to Pad
+------------+-----------------+------------+-----------------+------------+----------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                 | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------------------+--------+
+DP<0>       |        10.672(F)|      SLOW  |         5.984(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<1>       |        10.672(F)|      SLOW  |         5.984(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<2>       |        10.878(F)|      SLOW  |         6.116(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<3>       |        10.878(F)|      SLOW  |         6.116(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<4>       |        10.554(F)|      SLOW  |         5.961(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<5>       |         9.847(F)|      SLOW  |         5.529(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<6>       |         9.495(F)|      SLOW  |         5.250(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------------------+--------+
+
+Clock SW7 to Pad
+------------+-----------------+------------+-----------------+------------+----------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                 | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------------------+--------+
+DP<0>       |        12.671(F)|      SLOW  |         5.285(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<1>       |        12.671(F)|      SLOW  |         5.285(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<2>       |        12.877(F)|      SLOW  |         5.417(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<3>       |        12.877(F)|      SLOW  |         5.417(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<4>       |        12.553(F)|      SLOW  |         5.262(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<5>       |        11.846(F)|      SLOW  |         4.830(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+DP<6>       |        11.494(F)|      SLOW  |         4.551(F)|      FAST  |XLXI_246/selector_GND_19_o_OR_11_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------------------+--------+
+
+Clock to Setup on destination clock ABIT
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ABIT           |         |         |    2.117|    2.117|
+BBIT           |         |         |    2.123|    2.123|
+EQ             |         |         |    1.919|    1.919|
+SW7            |         |         |    4.270|    4.270|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock BBIT
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ABIT           |         |         |    1.640|    1.640|
+BBIT           |         |         |    1.646|    1.646|
+EQ             |         |         |    1.442|    1.442|
+SW7            |         |         |    3.793|    3.793|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock EQ
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ABIT           |         |         |    1.642|    1.642|
+BBIT           |         |         |    1.648|    1.648|
+EQ             |         |         |    1.444|    1.444|
+SW7            |         |         |    3.795|    3.795|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock P1231
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+P1231          |         |         |         |    0.873|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SW7
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ABIT           |         |         |    2.961|    2.961|
+BBIT           |         |         |    2.967|    2.967|
+EQ             |         |         |    2.763|    2.763|
+SW7            |         |         |    5.114|    5.114|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+PB1            |outmom1        |   10.466|
+PB3            |Randomdealer   |    9.826|
+SW7            |K60            |   11.737|
+SW7            |K61            |   11.382|
+SW7            |K62            |   11.574|
+SW7            |K63            |   11.309|
+SW7            |K64            |   10.976|
+SW7            |K65            |   11.255|
+SW7            |K66            |   11.058|
+SW7            |K67            |   10.860|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Dec 15 16:05:21 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4572 MB
+
+
+

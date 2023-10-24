@@ -1,0 +1,3 @@
+sch2hdl -intstyle ise -family spartan6 -verilog COMP4bitsm_l_e_drc.vf -w C:/KMITL/2D_1/DSF/Project1/BlackJack4/COMP4bitsm_l_e.sch 
+sch2sym -intstyle ise -family spartan6 -refsym COMP4bitsm_l_e C:/KMITL/2D_1/DSF/Project1/BlackJack4/COMP4bitsm_l_e.sch C:/KMITL/2D_1/DSF/Project1/BlackJack4/COMP4bitsm_l_e.sym 
+sch2sym -intstyle ise -family spartan6 -refsym COMP4bitsm_l_e C:/KMITL/2D_1/DSF/Project1/BlackJack4/COMP4bitsm_l_e.sch C:/KMITL/2D_1/DSF/Project1/BlackJack4/COMP4bitsm_l_e.sym 

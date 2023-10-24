@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan6 -verilog Dregister4bits_drc.vf -w C:/KMITL/2D_1/DSF/Project1/Children1/Dregister4bits.sch 
+sch2sym -intstyle ise -family spartan6 -refsym Dregister4bits C:/KMITL/2D_1/DSF/Project1/Children1/Dregister4bits.sch C:/KMITL/2D_1/DSF/Project1/Children1/Dregister4bits.sym 

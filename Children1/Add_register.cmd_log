@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan6 -verilog Add_register_drc.vf -w C:/KMITL/2D_1/DSF/Project1/Children1/Add_register.sch 
+sch2sym -intstyle ise -family spartan6 -refsym Add_register C:/KMITL/2D_1/DSF/Project1/Children1/Add_register.sch C:/KMITL/2D_1/DSF/Project1/Children1/Add_register.sym 

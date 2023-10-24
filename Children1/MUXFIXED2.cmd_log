@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan6 -verilog MUXFIXED2_drc.vf -w C:/KMITL/2D_1/DSF/Project1/Children1/MUXFIXED2.sch 
+sch2sym -intstyle ise -family spartan6 -refsym MUXFIXED2 C:/KMITL/2D_1/DSF/Project1/Children1/MUXFIXED2.sch C:/KMITL/2D_1/DSF/Project1/Children1/MUXFIXED2.sym 
